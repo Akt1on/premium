@@ -68,7 +68,7 @@ export function Hero() {
         </h1>
 
         <p className="mt-5 text-base sm:text-lg md:text-xl italic text-concrete/80 max-w-2xl font-light">
-          12 лет, 847 объектов, 2.4 млн м² — каждый объект под ключ за 72 часа.
+          12 лет, 847 объектов, 500.000 м² — каждый объект под ключ за 72 часа.
         </p>
 
         <motion.div
