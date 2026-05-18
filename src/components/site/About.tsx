@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const stats = [
   { value: 12, suffix: "+", label: "Лет на рынке" },
-  { value: 480, suffix: "", label: "Завершённых проектов" },
+  { value: 847, suffix: "", label: "Завершённых проектов" },
   { value: 24, suffix: "", label: "Единиц техники" },
   { value: 100, suffix: "%", label: "Гарантия качества" },
 ];
