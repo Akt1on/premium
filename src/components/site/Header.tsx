@@ -16,7 +16,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const { data: settings } = useSettings();
   const { data: services } = useServices();
-  const phone = settings?.phone ?? "+7 (800) 000-00-00";
+  const phone = settings?.phone ?? "+7 (915) 156-30-06";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30);
