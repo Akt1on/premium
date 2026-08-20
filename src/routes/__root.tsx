@@ -66,8 +66,8 @@ function JsonLd() {
                   "@id": "https://premiumstroe.ru/#org",
                   name: "ООО «Премиум Строй»",
                   url: "https://premiumstroe.ru",
-                  telephone: "+7 (800) 000-00-00",
-                  email: "info@premiumstroe.ru",
+                  telephone: "+7 (915) 156-30-06",
+                  email: "sardaryan.ayk@mail.ru",
                   priceRange: "₽₽",
                   image: "https://premiumstro.lovable.app/og.jpg",
                   address: {
