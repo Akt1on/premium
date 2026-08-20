@@ -4,7 +4,7 @@ import { useSettings } from "@/lib/use-settings";
 
 export function Contact() {
   const { data: s } = useSettings();
-  const phone = s?.phone ?? "+7 (800) 000-00-00";
+  const phone = s?.phone ?? "+7 (915) 156-30-06";
   const tel = phone.replace(/[^+\d]/g, "");
   const tg = (s?.telegram ?? "premiumstroe").replace(/^@/, "");
   const wa = (s?.whatsapp ?? tel).replace(/[^+\d]/g, "");
@@ -127,7 +127,7 @@ export function Contact() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 max-w-5xl mx-auto mt-px">
           {[
             { l: "Телефон", v: phone, h: `tel:${tel}` },
-            { l: "Email", v: s?.email ?? "info@premiumstroe.ru", h: `mailto:${s?.email ?? ""}` },
+            { l: "Email", v: s?.email ?? "sardaryan.ayk@mail.ru", h: `mailto:${s?.email ?? ""}` },
             { l: "Адрес", v: s?.address ?? "г. Красногорск, МО", h: undefined },
             { l: "Режим работы", v: s?.working_hours ?? "24 / 7 — без выходных", h: undefined },
           ].map((c) => (
