@@ -17,10 +17,10 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--orange)] mb-3">Контакты</div>
             <a href={`tel:${(s?.phone ?? "").replace(/[^+\d]/g, "")}`} className="block font-display text-xl hover:text-[var(--orange)] transition-colors">
-              {s?.phone ?? "+7 (800) 000-00-00"}
+              {s?.phone ?? "+7 (915) 156-30-06"}
             </a>
             <a href={`mailto:${s?.email ?? ""}`} className="block text-sm text-concrete mt-2 hover:text-[var(--orange)] transition-colors">
-              {s?.email ?? "info@premiumstroe.ru"}
+              {s?.email ?? "sardaryan.ayk@mail.ru"}
             </a>
             <p className="text-sm text-concrete mt-3">{s?.address ?? "г. Красногорск, МО"}</p>
             <p className="text-xs text-muted-foreground mt-1">{s?.working_hours ?? "24 / 7"}</p>
