@@ -24,7 +24,7 @@ function fmt(n: number) {
 
 export function Calculator() {
   const { data: settings } = useSettings();
-  const tel = (settings?.phone ?? "+7 (800) 000-00-00").replace(/[^+\d]/g, "");
+  const tel = (settings?.phone ?? "+7 (915) 156-30-06").replace(/[^+\d]/g, "");
   const tg = (settings?.telegram ?? "premiumstroe").replace(/^@/, "");
   const [type, setType] = useState<typeof TYPES[number]["id"]>("asphalt");
   const [area, setArea] = useState(1000);
