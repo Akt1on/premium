@@ -4,7 +4,7 @@ import { useSettings } from "@/lib/use-settings";
 
 export function FloatingCTA() {
   const { data: s } = useSettings();
-  const phone = s?.phone ?? "+7 (800) 000-00-00";
+  const phone = s?.phone ?? "+7 (915) 156-30-06";
   const tel = phone.replace(/[^+\d]/g, "");
   const tg = (s?.telegram ?? "premiumstroe").replace(/^@/, "");
   const wa = (s?.whatsapp ?? tel).replace(/[^+\d]/g, "").replace("+", "");
